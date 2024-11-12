@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: rgb(0, 37, 80);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.informacoes > h1{
+    font-size: large;
+    text-align: center;
+
+}
+.certificados{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    justify-content:space-between;
+    padding: 15px;
+    text-align: center;
+   
+
+}
+section{
+    align-items: center;
+    margin: 50px;
+}
+.h3dois{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items:flex-end;
+    
+}
+.h1um{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.h3um{
+    margin-left: 10px;
+}
+.footer {
+    max-block-size: 100%;
+    display: flex; /* Adiciona o display flex */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    text-align: center; /* Alinha o texto no centro */
+}
+
+.fotos2, .fotos { /* Adiciona um estilo comum para ambas as classes */
+    display: flex; /* Adiciona o display flex */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha, se necessário */
+}
+
+.fotos2 > img, .fotos > img { /* Agrupa os estilos de imagem */
+    width: 100px;
+    height: 100px;
+    margin: 5px; /* Adiciona uma margem para espaçamento entre as imagens */
+}
